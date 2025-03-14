@@ -10,20 +10,20 @@ export default function Intro() {
           Building Fast, Modern Websites with Next JS
         </h2>
         <p className='text-foreground mt-3 mb-8 max-w-3xl text-xl font-bold'>
-          I'm a dedicated Web Developer based in London, UK, My mission is to
-          provide affordable solutions for small businesses and startups,
-          helping you build a strong online presence
+          I'm a dedicated Web Developer based in London, UK, I provide
+          affordable solutions for small businesses and startups, helping build
+          a strong online presence
         </p>
         <div className='flex flex-wrap items-center justify-center gap-2'>
           <Link
             href='/'
-            className='flex w-fit items-center justify-center rounded-md bg-blue-500 px-6 py-2 text-white'
+            className='flex w-fit items-center justify-center rounded-md bg-yellow-500 px-6 py-2 text-xl text-black'
           >
             Our Services
           </Link>{' '}
           <Link
             href='/'
-            className='flex w-fit items-center justify-center rounded-md bg-blue-800 px-6 py-2 text-white'
+            className='flex w-fit items-center justify-center rounded-md bg-blue-800 px-6 py-2 text-xl text-white'
           >
             BlogPosts
           </Link>
@@ -31,7 +31,7 @@ export default function Intro() {
       </div>
       <div className='relative w-[40%]'>
         <Image
-          className='flex-1 rounded-full grayscale'
+          className='flex-1 flex-col-reverse rounded-t-2xl grayscale'
           src='/dayo-luton3.jpg'
           alt='intro page image'
           width={375}
