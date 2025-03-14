@@ -3,10 +3,13 @@ import { ThemeToggle } from './theme-toggle'
 
 export default function Header() {
   return (
-    <header className='bg-background/75 fixed inset-x-0 top-0 z-50 py-6 backdrop-blur-sm'>
-      <nav className='container flex max-w-3xl items-center justify-between'>
+    <header className='bg-background/75 fixed inset-x-0 top-0 z-50 px-12 py-6 backdrop-blur-sm'>
+      <nav className='container mx-auto flex w-full items-center justify-between'>
         <div>
-          <Link href='/' className='font-serif text-2xl font-bold'>
+          <Link
+            href='/'
+            className='font-serif text-2xl font-bold text-blue-900'
+          >
             CodeBuzzeer
           </Link>
         </div>

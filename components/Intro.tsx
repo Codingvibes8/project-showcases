@@ -14,12 +14,20 @@ export default function Intro() {
           provide affordable solutions for small businesses and startups,
           helping you build a strong online presence
         </p>
-        <Link
-          href='/'
-          className='flex w-fit items-center justify-center rounded-md bg-blue-800 px-6 py-2 text-white'
-        >
-          Get a Free Consultation
-        </Link>
+        <div className='flex flex-wrap items-center justify-center gap-2'>
+          <Link
+            href='/'
+            className='flex w-fit items-center justify-center rounded-md bg-blue-500 px-6 py-2 text-white'
+          >
+            Our Services
+          </Link>{' '}
+          <Link
+            href='/'
+            className='flex w-fit items-center justify-center rounded-md bg-blue-800 px-6 py-2 text-white'
+          >
+            BlogPosts
+          </Link>
+        </div>
       </div>
       <div className='relative w-[40%]'>
         <Image
