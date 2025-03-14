@@ -1,7 +1,11 @@
-
+import Intro from '@/components/Intro'
 
 export default function Home() {
   return (
-   <h1 className={'text-6xl text-yellow-500 bg-blue-300'}>PortfolioPage</h1>
-  );
+    <section className='py-24'>
+      <div className='container mx-auto'>
+        <Intro />
+      </div>
+    </section>
+  )
 }
